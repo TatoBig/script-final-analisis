@@ -1,0 +1,19 @@
+id,Titulo,Categoria,usuario
+1,Artículo 1,Programación,US1
+3,Artículo 3,Programación,US2
+10,ARtículo 10,Programación,US4
+14,Artículo 14,Programación,US2
+16,Artículo 16,Programación,US2
+2,Artículo 2,Linux,US1
+6,Artículo 6,Linux,US1
+17,Artículo 17,Linux,US5
+4,Artículo 4,Desarrollo Web,US2
+8,Artículo 8,Desarrollo Web,US6
+15,Artículo 15,Desarrollo Web,US3
+18,ARtículo ,Desarrollo Web,US2
+5,Artículo 5,Servidores,US2
+12,Artículo 12,Servidores,US2
+7,Artículo 7,Posicionamiento Internet,US3
+9,Artículo 9,Posicionamiento Internet,US8
+13,Artículo 13,Posicionamiento Internet,US1
+11,Artículo 11,CSS,US5
