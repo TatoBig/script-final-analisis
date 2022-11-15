@@ -10,11 +10,12 @@
 
 ### Gráficas realizadas
 
-- Grafica realizada a través de un archivo .csv generado por este script extraído de la base de datos en MySQL
+- Gráfico de pie - Artículos por categoría - Obtenido del CSV generado a través del script
 
 ![LogoBlank](https://raw.githubusercontent.com/TatoBig/script-final-analisis/main/pie.png)
 
 - Código
+
   ```
   articulos <- read.csv(file = 'table.csv')
   View(articulos)
@@ -25,3 +26,7 @@
   View(categorias_por_articulo)
   pie(categorias_por_articulo$n, categorias_por_articulo$Categoria)
   ```
+
+- Gráfico de barras - Cuántos artículos tiene cada usuario - Obtenido de MySQL directamente.
+
+![LogoBlank](https://raw.githubusercontent.com/TatoBig/script-final-analisis/main/barplot.png)
