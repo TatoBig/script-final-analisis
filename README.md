@@ -14,12 +14,14 @@
 
 ![LogoBlank](https://raw.githubusercontent.com/TatoBig/script-final-analisis/main/pie.png)
 
-- Codigo
-  `articulos <- read.csv(file = 'table.csv')`
-  `View(articulos)`
-  `library(dplyr)`
-  `articulos %>% count(Categoria)`
-  `categorias_por_articulo <- articulos %>% count(Categoria)`
-  `pie(categorias_por_articulo)`
-  `View(categorias_por_articulo)`
-  `pie(categorias_por_articulo$n, categorias_por_articulo$Categoria)`
+- Código
+  ```
+  articulos <- read.csv(file = 'table.csv')
+  View(articulos)
+  library(dplyr)
+  articulos %>% count(Categoria)
+  categorias_por_articulo <- articulos %>% count(Categoria)
+  pie(categorias_por_articulo)
+  View(categorias_por_articulo)
+  pie(categorias_por_articulo$n, categorias_por_articulo$Categoria)
+  ```
