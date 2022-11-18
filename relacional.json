@@ -1,0 +1,40 @@
+{
+  "Usuario": {
+    "id": "string",
+    "email": "string",
+    "nombre_completo": "string",
+    "ubicacion": {
+      "pais": "string",
+      "departamento": "string",
+      "ciudad": "string"
+    },
+    "tipo_usuario (solo estos tipos de usuario existen)": "admin | estudiante | profesor",
+    "cursos": ["cursosId1", "cursosId2", "cursosId3"]
+  },
+  "Curso": {
+    "id": "string",
+    "nombre": "string",
+    "horario": "string",
+    "no_clases": "int",
+    "categoria": "string",
+    "coste": "float",
+    "estudiantes": [
+      "usuarioId_tipoEstudiante1",
+      "usuarioId_tipoEstudiante2",
+      "usuarioId_tipoEstudiante3"
+    ],
+    "profesor": "usuarioId_tipoProfesor1",
+    "promocion (este campo es opcional dentro del curso)": {
+      "fecha_inicio": "date",
+      "fecha_final": "date",
+      "descuento": "float (porcentage de descuento)"
+    }
+  },
+  "Pagos": {
+    "id": "string",
+    "usuarioId": "usuarioId",
+    "monto": "float",
+    "curso": "cursoId",
+    "fecha": "date"
+  }
+}
