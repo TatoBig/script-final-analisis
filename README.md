@@ -11,7 +11,7 @@
 ### Archivos para la entrega
 
 - Capturas de pantalla de las 2 gráficas: `Gráficas en R.pdf`
-- El script o programa utilizado para exportar a CSV `Este repositorio`
+- El script o programa utilizado para exportar a CSV `index.js`
 - Un archivo, con todas las instrucciones usadas en R, para la realización del ejercicio `historial_R.txt`
 
 ### Gráficas realizadas
